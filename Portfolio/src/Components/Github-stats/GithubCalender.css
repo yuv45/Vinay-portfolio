@@ -23,5 +23,21 @@
       margin: auto;
       margin-left: 0;
    }
+   .Monthly-stats{
+      width: 50%;
+      margin: auto;
+   }
+   
+ }
+ @media screen and (max-width:770px) {
+   .react-activity-calendar{
+      width: 10vw;
+      margin: auto;
+      margin-left: 0;
+   }
+   .Monthly-stats{
+      width: 80%;
+      margin: auto;
+   }
    
  }

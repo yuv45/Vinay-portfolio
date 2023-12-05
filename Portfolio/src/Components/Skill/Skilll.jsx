@@ -71,17 +71,18 @@ export default function Skilll() {
                 {
                     show ?
                         <>
-                            <div><img className="languages"  src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /><p>GitHub</p></div>
-                            <div><img className="languages" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png" alt="" /><p>VS Code</p></div>
-                            <div><img className="languages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png" alt="" /><p>Replit</p></div>
-                            <div><img className="languages" src="https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png" alt="" /><p>PostMan</p></div>
-                        </>
+                        
+                            <div className="languages-icon"><img className="languages"  src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /><p>GitHub</p></div>
+                            <div className="languages-icon"><img className="languages" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png" alt="" /><p>VS Code</p></div>
+                            <div className="languages-icon"><img className="languages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png" alt="" /><p>Replit</p></div>
+                            <div className="languages-icon"><img className="languages" src="https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png" alt="" /><p>PostMan</p></div>
+                        </> 
                         :
                         <>
-                            <div><img className="languages" src="https://iconape.com/wp-content/png_logo_vector/git-icon.png" alt="" /><p>Git</p></div>
-                            <div><img className="languages" src="https://seeklogo.com/images/V/vercel-logo-F748E39008-seeklogo.com.png" alt="" /><p>Vercel</p></div>
-                            <div><img className="languages" src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="" /><p>Netlify</p></div>
-                            <div><img className="languages" src="https://cdn3.iconfinder.com/data/icons/feather-5/24/codesandbox-512.png" alt="" /><p>CodeSandBox</p></div>
+                            <div className="languages-icon"><img className="languages" src="https://iconape.com/wp-content/png_logo_vector/git-icon.png" alt="" /><p>Git</p></div>
+                            <div className="languages-icon"><img className="languages" src="https://seeklogo.com/images/V/vercel-logo-F748E39008-seeklogo.com.png" alt="" /><p>Vercel</p></div>
+                            <div className="languages-icon"><img className="languages" src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="" /><p>Netlify</p></div>
+                            <div className="languages-icon"><img className="languages" src="https://cdn3.iconfinder.com/data/icons/feather-5/24/codesandbox-512.png" alt="" /><p>CodeSandBox</p></div>
                         </>
                 }
             </div>

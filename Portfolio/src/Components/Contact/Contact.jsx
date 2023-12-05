@@ -42,12 +42,15 @@ const Contact = () => {
           </div>
         </div>
      <p>Please fill out form below to discuss any work opportunity  </p>
+     <div className='Contact-area'>
      <form onSubmit={sendEmail} ref={form} className='ContactForm'>
         <input type='text' className='name' placeholder='Your Name' name='yourName'/>
         <input type="email" className="email" placeholder="Your Email" name='yourEmail' />
         <textarea className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
         <button value="send" type='submit' className='submitBtn'>Submit</button>
      </form>
+     </div>
+     
     </div>
   )
 }

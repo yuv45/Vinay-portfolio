@@ -61,7 +61,7 @@ cursor: pointer;
 }
 .mob-menu{
     display: none;
-    object-fit: cover;
+
     height: 1.8rem;
 }
 .mob-menu i{

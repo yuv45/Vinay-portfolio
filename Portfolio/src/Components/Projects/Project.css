@@ -1,61 +1,78 @@
-.project-theme{
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    width: 90%;
-    margin: auto;
-    height: 300px;
-    border-radius: 10px;
-    padding: 2rem;
-    margin-top: 50px;
+.project-theme {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 90%;
+  margin: auto;
+  height: 300px;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 50px;
 }
-.project-theme .mac img{
-width: 80vh;
-height: 300px;
-border: 8px solid white;
-transition: 0.5s;
-box-shadow: rgba(244, 240, 240, 0.25) 0px 54px 55px, rgba(252, 249, 249, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+.project-theme .mac img {
+  width: 80vh;
+  height: 300px;
+  border: 8px solid white;
+  transition: 0.5s;
+  box-shadow: rgba(244, 240, 240, 0.25) 0px 54px 55px,
+    rgba(252, 249, 249, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-a{
-    color: white;
+a {
+  color: white;
 }
-.mac img:hover{
-    width: 100vh;
-    height: 400px;
+.mac img:hover {
+  width: 100vh;
+  height: 400px;
 }
-.project-theme:hover{
-    height: 400px;
+.project-theme:hover {
+  height: 400px;
 }
-hr{
-    margin-left: 100px;
+hr {
+  margin-left: 100px;
 }
-.description{
-    padding: 2rem;
+.description {
+  padding: 2rem;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 0.4s;
+}
+.description:hover {
+  padding: 7rem;
+}
+.icons i {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.icons i:hover {
+  font-size: 50px;
+}
+@media screen and (max-width: 720px) {
+  .project-theme {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50%;
     text-align: center;
+  }
+ 
 }
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    transition: 0.4s;
-    
-}
-.description:hover{
-    padding: 7rem;
-}
-.icons i{
-    margin-left: 10px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.icons i:hover{
-    font-size: 50px;
-    
-}
-@media screen and (max-width:320px) {
-   .project-theme{
-display: grid;
-grid-template-columns: repeat(1,1fr);
-   } 
-}
+@media screen and (max-width: 420px) {
+    .project-theme {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 50%;
+      
+    }
+    .img{
+        
+    }
+     
+   
+  }

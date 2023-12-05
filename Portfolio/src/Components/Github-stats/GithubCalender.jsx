@@ -14,7 +14,7 @@ export default function GithubCalender() {
     <div id="Github">
     <h1>Github Stats -(yuv45)</h1><br/>
     {
-      show?  <div>
+      show?  <div className="Monthly-stats">
       <h3 className="month"> Monthly Stats</h3><br/>
         <GitHubCalendar 
           className="react-activity-calendar"

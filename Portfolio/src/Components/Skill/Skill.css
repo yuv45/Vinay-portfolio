@@ -37,6 +37,13 @@ h1:hover{
 @media screen and (max-width:720px) {
     .skills-main{
         display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    }
+}
+@media screen and (max-width:420px) {
+    .skills-main{
+        display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 3rem;
     }
