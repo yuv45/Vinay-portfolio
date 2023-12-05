@@ -1,0 +1,21 @@
+.About{
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    margin-top: -10%;
+}
+               
+.copy-img   {
+width: 1rem;
+cursor: pointer;
+padding: 0.3;
+margin-left:10px ;
+
+}
+body{
+    background: rgb(30,30,30);
+    color: white;
+    overflow: hidden;
+    overflow-y:scroll ;
+}
+ 

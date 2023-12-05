@@ -1,0 +1,81 @@
+.ContactForm{
+    margin: 2rem 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    
+}
+.name,.email,.msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background:  rgb( 40 40 40)
+}
+.submitBtn{
+  background: white;
+  padding: 0.75rem 3.5rem;
+  border: none;  
+  border-radius: 0.5rem;
+  margin: 2rem;
+}
+p{
+ text-align: center;
+ margin-top: 0;
+}
+h1{
+  margin-top: 10%;
+}
+ 
+.contactDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 4rem auto;
+}
+.contactInfo {
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: rgba(250, 230, 280, 0.25) 0px 6px 12px -2px, rgba(250, 230, 280, 0.3) 0px 3px 7px -3px;
+  transition: 0.5s;
+}
+.contactInfo:hover{
+  background-color: white;
+  color: black;
+  padding: 5rem;
+}
+.contactInfo>i {
+  font-size: 2rem;
+}
+.contactInfo>p {
+  width: fit-content;
+  font-weight: bolder;
+}
+.contactInfo>p:nth-child(2) {
+  font-size: 1.5rem;
+}
+.contactInfo>p:nth-child(3) {
+  font-size: 1.2rem;
+}
+.contactInfo>p:last-child {
+  font-size: 1.4rem;
+  color:yellow;
+  cursor: pointer;
+}
+.contactInfo>p:last-child:hover {
+  color: rgb(230, 197, 10);
+  border-bottom: 2px solid rgb(221, 232, 19);
+}
