@@ -1,3 +1,4 @@
+ 
 import React from "react";
 import macdonaldclone from "../Images/macdonald.clone.png";
 import omdb from "../Images/Omdb.png";
